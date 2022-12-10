@@ -10,7 +10,7 @@ My goals are to gain knowledge in the field of front-end development and to buil
 ## Skills
   + Html
   + Git
-  ## Experience, Education
+## Experience, Education
   * University: BSU, jurisprudence
   * Courses: RS SCHOOL, JavaScript/Front-end. Stage 0 (in progress)
 ## Languages
