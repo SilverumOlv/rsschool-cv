@@ -1,15 +1,121 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>rsschool-cv</title>
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        <header class="header">My name</header>
-        <main>
-            <div class="container">Hello world!</div>
-        </main>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+         </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img src="./assets/img/image.jpg" alt class="section-profile-photo">
+                <div class="section-profile-title">
+                    <h1 class="section-title profile-title">Aliaksandra Ramantsevich</h1>
+                    <h3>Junior Front-End Developer</h3>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-contacts">
+                    <li class="section-item contacts-item">GitHub:<a href="https://github.com/SilverumOlv">SilverumOlv</a>
+                    </li>
+                    <li class="section-item contacts-item">Discord:<a href="https://discord.gg/AwV8vTXC">Sorel#7348</a>
+                    </li>
+                    <li class="section-item contacts-item">E-mail:<a href="mailto:alromadraw@gmail.com">alromadraw@gmail.com</a></li>
+                    <li class="section-item contacts-item">Phone:<a>+37529</a></li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>I am 30 years old. I work as legal consult.</p>
+                <p>I like to learn everything new and exciting.</p>
+                <p>My goals are to gain knowledge in the field of front-end development and to build my expertise for becomming an in-demand professional.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list">
+                    <li class="section-item">Web-development: HTML5, CSS3</li>
+                    <li class="section-item">Version control: GIT, Github</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+<pre class="pre-item"><code>function isIsogram(str) {
+    var i, j;
+    str = str.toLowerCase();
+    for(i = 0; i &#60; str.length; ++i)  {
+      for(j = i + 1; j 	&#60; str.length; ++j)  {
+        if(str[i] === str[j])  {
+        }
+      }
+    }
+    return true;
+}</code></pre>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        RS SCHOOL - JavaScript/Front-end. Stage 0 (in progress)
+                    </li>
+                    <li class="section-item">
+                        Code Basics - Бесплатный курс по HTML: обучение html верстке для начинающих
+                    </li>
+                    <li class="section-item">
+                        Code Basics - Бесплатный курс CSS: онлайн обучение c нуля
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        <a href="https://github.com/SilverumOlv/rsschool-cv">CV project</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section section-education" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>BSU, jurisprudence</p>
+            </section>
+            <section class="section section-languages" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <p>Russian - Native</p>
+                <p>Belarusian - Native</p>
+                <p>English - Intermediate</p>
+                <p>German - Beginner</p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <a href="https://github.com/SilverumOlv" class="github nav-link"></a>
+            <div>2022</div>
+            <a href="https://rs.school/js" class="rsschool nav-link"></a>
+        </div>        
+    </footer>
+</body>
 </html>
